@@ -1,0 +1,44 @@
+body {
+    background-color: #080101;
+    font-family: Arial;
+}
+
+.calculator {
+    background-color: black;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1 {
+    color: white;
+}
+
+input {
+    width: 240px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    background-color: #222;
+    color: white;
+    border: 1px solid gray;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
